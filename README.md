@@ -8,6 +8,7 @@ Must be part of the HETDEX group to use (uses required HETDEX data/libraries).
 
 Import the following libraries:
 
+```
 import tables as tb
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,14 +30,12 @@ from hetdex_api.detections import Detections
 import pandas as pd
 import seaborn as sb
 
-(Can use pip install for these)
+# (Can use pip install for these)
+```
 
 ## Usage
 
 Feed in HETDEX data. Get out a classification
-```python
-    blank for now
-```
 
 ## Contributing
 For any changes, please open an issue first to discuss what you would like to change.
