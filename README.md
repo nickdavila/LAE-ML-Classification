@@ -2,6 +2,8 @@
 
 A python program that uses Machine Learning to classify Lyman Alpha emitting galaxies (LAE).
 
+The main goal of the algorithm is that we want it to distinguish LAE vs O2 emitting galaxies.
+
 This is a project made by Nick Davila (with a lot of help/guidance from Oscar A. Chavez from UT Astronomy)
 
 ## Ideation
