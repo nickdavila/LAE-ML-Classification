@@ -54,10 +54,9 @@ from hetdex_api.survey import Survey, FiberIndex
 from hetdex_api.config import HDRconfig
 from hetdex_api.detections import Detections
 
-import pandas as pd
 import seaborn as sb
 
-# (Can use pip install for these)
+# Can use pip install for these
 ```
 
 ## Usage
