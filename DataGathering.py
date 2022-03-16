@@ -52,5 +52,18 @@ Total_Detections_DF = Detections_DF(Detections_h5)
 # Then make a radius of 3.5 degrees centered above and find all the RA and DEC coordinates
 # in the DF that are within this circle
 
+# Creating a 'box' filter using Boolean masking
+NEP_RA_filter = (Total_Detections_DF['ra'] > 266.5) & (Total_Detections_DF['ra'] < 273.5) & (Total_Detections_DF['dec'] > 63.05) & (Total_Detections_DF['dec'] < 70.05)
+
+# Trying to create the circle region in the sky (NEP field) so that only use the NEP field and nothing else
+ra = '18h00m00s'
+dec = '+66d33m38.552s'
+
+# Trying to use SkyCoord and then somehow manipulate it to filter the pandas datafram
+# SkyCoords is hard to work with using pandas... looking into other options
+# Trying to see if I can create an area of the circle and somehow use it to filter...
+center_sky_coords = SkyCoord(ra, dec, frame = 'icrs')
+circle_region_sky = CircleSkyRegion(center_sky_coords, radius = 3.5 * u.deg)
+
 # Once selected sources within the NEP footprint I can then go find some
 # spectra from these sources
