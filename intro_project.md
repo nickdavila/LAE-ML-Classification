@@ -18,6 +18,7 @@ from regions import CircleSkyRegion, CirclePixelRegion
 from hetdex_api.survey import Survey, FiberIndex
 from hetdex_api.config import HDRconfig
 from hetdex_api.detections import Detections
+from hetdex_api.elixer_widget_cls import ElixerWidget
 
 from hetdex_tools.get_spec import get_spectra
 
@@ -32,57 +33,6 @@ det_object = Detections('hdr2.1', loadtable = False)
 
 
 ```python
-hdr2 = Detections(curated_version = '2.1.3')
-```
-
-
-```python
-print('hdr2.coords.size', hdr2.coords.size)
-print('det_object.coords.size', det_object.coords.size)
-```
-
-    hdr2.coords.size 578587
-    det_object.coords.size 1482880
-
-
-
-```python
-tb = hdr2.return_astropy_table()
-```
-
-
-```python
-tb["field"] == "nep"
-```
-
-
-
-
-    array([False, False, False, ..., False, False, False])
-
-
-
-
-```python
-np.unique(tb["field"])
-```
-
-
-
-
-&lt;Column name=&apos;field&apos; dtype=&apos;str12&apos; length=5&gt;
-<table>
-<tr><td>cosmos</td></tr>
-<tr><td>dex-fall</td></tr>
-<tr><td>dex-spring</td></tr>
-<tr><td>egs</td></tr>
-<tr><td>goods-n</td></tr>
-</table>
-
-
-
-
-```python
 # Once it has loaded you want to filter out the data by selecting those that are in the NEP field
 # to do this I will give you the verticies of a box that will encompass all the NEP field - Oscar
 
@@ -92,44 +42,47 @@ np.unique(tb["field"])
 # Then make a radius of 3.5 degrees centered above and find all the RA and DEC coordinates
 # in the DF that are within this circle
 
-########### USING HDR2 OBJECT #########################
 # creating the circle region in the sky (NEP field)
-ra = '18h00m00s'
-dec = '+66d33m38.552s'
-center_sky_coords = SkyCoord(ra, dec, frame = 'icrs')
-
-maskregion = hdr2.query_by_coords(center_sky_coords, 3.5 * u.deg)
-detects_in_NEP = hdr2[maskregion]     # Sources within the NEP footprint
-print('hdr2: ', end = "")
-print(np.size(detects_in_NEP.detectid))
-
-########### USING det_object OBJECT #########################
-
 ra = '18h00m00s'
 dec = '+66d33m38.552s'
 center_sky_coords = SkyCoord(ra, dec, frame = 'icrs')
 
 maskregion = det_object.query_by_coords(center_sky_coords, 3.5 * u.deg)
 detects_in_NEP = det_object[maskregion]     # Sources within the NEP footprint
+
 print('det_object: ', end = "")
 print(np.size(detects_in_NEP.detectid))
 ```
 
-    hdr2: 0
     det_object: 69799
 
 
 
 ```python
-np.sum(maskregion)
+ra = detects_in_NEP.ra * u.deg
+dec = detects_in_NEP.dec * u.deg
+input_coords = SkyCoord(ra, dec)
 ```
 
 
+```python
+sources = get_spectra(input_coords[10])
+```
 
 
-    0
+```python
+sources
+```
 
 
+```python
+det_object.__dict__.keys()
+```
+
+
+```python
+print(det_object.version)
+```
 
 
 ```python
