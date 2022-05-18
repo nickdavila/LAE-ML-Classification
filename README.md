@@ -1,37 +1,25 @@
 <div id="top"></div>
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<div align="center">
+  
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://sites.utexas.edu/vip/">
-    <img src="images/GEVIP LOGO/Purple Logo/GEVIP LOGO BOTTOM TEXT WHITE.png" alt="Logo" width="80" height="80">
+    <img src="images/GEVIP LOGO/Purple Logo/GEVIP LOGO BOTTOM TEXT WHITE.png" alt="Logo" width="100" height="115">
   </a>
-
+  
+<h5 align="center">(Click the logo to go to our official website)</h5>
+  
 <h3 align="center">Classifying Lyman-Alpha Emitters With Machine Learning</h3>
 
   <p align="center">
-    A machine learning program that classifies galaxies based on their strong Lyman-Alpha 
     <br />
-    <a href="https://github.com/nickdavila/LAE-ML-Classification/tree/main/Papers"><strong>Explore the papers I used »</strong></a>
-    <br />
+    <a href="https://github.com/nickdavila/LAE-ML-Classification/tree/main/research/papers"><strong>Explore the papers I used »</strong></a>
     <br />
     Created by Nick Davila with the help from the awesome people at GEVIP.
   </p>
@@ -44,7 +32,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Origin Of The Project</a>
+      <a href="#about-the-project">About Of The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -70,15 +58,28 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](research/posters/cns_urf_2022_poster.pdf){:height="5px" width="5px"}
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+One of GEVIP’s (Galaxy Evolution Vertically Integrated Project) themes is working with HETDEX (Hobby-Eberly Telescope Dark Energy Experiment). HETDEX is an unbiased spectroscopic survey using the 10m Hobby Eberly Telescope (HET) and its VIRUS integral-field unit (IFU) spectrograph. HETDEX is in the process of discovering distant galaxies on the basis of their strong Lyman-α emissions. In some GEVIP projects, we use the discovered Lyman-α emitting galaxies with the goal of understanding how the Milky Way galaxy was formed. In order to get usable data, we work on classifying Lyman-α emitting galaxies from large sets of data which contain different astronomical objects. To classify, we divide astronomical objects into groups based on their visual appearance. However, data in astronomy is getting larger and more complex, so we are turning to machine learning algorithms that can adapt to increasingly large sets of data. Therefore, this project aims to create a machine learning algorithm to accelerate the classification of Lyman-α galaxies. Our first step is to explore different machine learning algorithms related to classification. We then want to compare the algorithms and find which one is best suited for our purposes. We want an algorithm that takes images as input and can output a Lyman-α score between 0 and 1 (a probability the source is Lyman- α, where 0 is not probable at all and 1 is very probable). Lastly, we want to implement our chosen algorithm to the smaller NEP field data, and then optimize it, to one day use it with other data sets.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
 
 Must be part of the HETDEX group to use (uses required HETDEX data/libraries).
 
@@ -108,39 +109,9 @@ import seaborn as sb
 # Can use pip install for these
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+This part is under construction!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,8 +135,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -201,9 +170,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - ndavila@utexas.edu
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/nickdavila/LAE-ML-Classification](https://github.com/nickdavila/LAE-ML-Classification)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -218,20 +187,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nickmdavila/
-[product-screenshot]: research/posters/cns_urf_2022_poster.pdf
+[product-screenshot]: images/cns_urf_2022_poster-1.jpg
