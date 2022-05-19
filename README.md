@@ -9,19 +9,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://sites.utexas.edu/vip/">
+  
+  <h2 align="center">Classifying Lyman-Alpha Emitters With Machine Learning</h2>
+  
+  <a>
     <img src="images/GEVIP LOGO/Purple Logo/GEVIP LOGO BOTTOM TEXT WHITE.png" alt="Logo" width="100" height="115">
   </a>
   
-<h5 align="center">(Click the logo to go to our official website)</h5>
-  
-<h3 align="center">Classifying Lyman-Alpha Emitters With Machine Learning</h3>
+  <h5 align="center"> https://sites.utexas.edu/vip/ </h5>
 
   <p align="center">
+    Created by Nick Davila with the help from the awesome people at GEVIP
     <br />
-    <a href="https://github.com/nickdavila/LAE-ML-Classification/tree/main/research/papers"><strong>Explore the papers I used »</strong></a>
+    <a href="https://github.com/nickdavila/LAE-ML-Classification/tree/main/research"><strong>Explore the secondary research for this project»</strong></a>
     <br />
-    Created by Nick Davila with the help from the awesome people at GEVIP.
   </p>
 </div>
 
@@ -33,17 +34,9 @@
   <ol>
     <li>
       <a href="#about-the-project">About Of The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -58,28 +51,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](research/posters/cns_urf_2022_poster.pdf){:height="5px" width="5px"}
+[![Product Name Screen Shot][product-screenshot]](research/posters/cns_urf_2022_poster.pdf)
 
 One of GEVIP’s (Galaxy Evolution Vertically Integrated Project) themes is working with HETDEX (Hobby-Eberly Telescope Dark Energy Experiment). HETDEX is an unbiased spectroscopic survey using the 10m Hobby Eberly Telescope (HET) and its VIRUS integral-field unit (IFU) spectrograph. HETDEX is in the process of discovering distant galaxies on the basis of their strong Lyman-α emissions. In some GEVIP projects, we use the discovered Lyman-α emitting galaxies with the goal of understanding how the Milky Way galaxy was formed. In order to get usable data, we work on classifying Lyman-α emitting galaxies from large sets of data which contain different astronomical objects. To classify, we divide astronomical objects into groups based on their visual appearance. However, data in astronomy is getting larger and more complex, so we are turning to machine learning algorithms that can adapt to increasingly large sets of data. Therefore, this project aims to create a machine learning algorithm to accelerate the classification of Lyman-α galaxies. Our first step is to explore different machine learning algorithms related to classification. We then want to compare the algorithms and find which one is best suited for our purposes. We want an algorithm that takes images as input and can output a Lyman-α score between 0 and 1 (a probability the source is Lyman- α, where 0 is not probable at all and 1 is very probable). Lastly, we want to implement our chosen algorithm to the smaller NEP field data, and then optimize it, to one day use it with other data sets.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-### Built With
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+## Prerequisites
 
 Must be part of the HETDEX group to use (uses required HETDEX data/libraries).
 
@@ -120,9 +98,7 @@ This part is under construction!
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Whenever you need to classify galaxies based on their strong Lyman-α emissions. You input an image (specify type later) and data (also specify later) and then the program will classify for you and tell you if those partain to a Lyman-α emitting galaxy.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -131,10 +107,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Get all the data required to train the machine learning algorithm
+- [ ] Find and compare algorithms to see which performs best 
+- [ ] Implement the 'best' and have it output 
+    - [ ] Write a note about this?
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,10 +119,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request or you can also simply email me!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -158,19 +131,10 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - ndavila@utexas.edu
+Nick Davila - ndavila@utexas.edu
 
 Project Link: [https://github.com/nickdavila/LAE-ML-Classification](https://github.com/nickdavila/LAE-ML-Classification)
 
@@ -181,9 +145,19 @@ Project Link: [https://github.com/nickdavila/LAE-ML-Classification](https://gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Very special thanks to Oscar A. Chavez Ortiz for guiding me throughout the entire project.
+* Thank you to Gene Leung and Steven Finkelstein for their exptert advice along the way.
+* Thank you to all my peers in GEVIP for the tips and inspiration.
+<!-- * []() use this so that it's like a link to something -->
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
