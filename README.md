@@ -107,6 +107,16 @@ Whenever you need to classify galaxies based on their strong Lyman-α emissions.
 <!-- ROADMAP -->
 ## Roadmap
 
+So basically I want to automate the classification process we do by training an AI to do it. What I'm going to do is have it basically retrace our steps and automate all of them. So when we classify, these are our steps:
+1. Look at spectrum and inspect it
+2. Look at CCD’s
+3. Look at upper left information
+4. Look at images
+5. Etc.
+
+It seems very ambitious but I have to try. So the final goal is to automate all of these, and slowly but surely I have to work through each one. Automating each one is probably like its own mini-project. So I’ll first start with automating step 1, and let’s say we get a probability based on number 1 alone. Then we get a probability based on automating number 2 alone. We repeat this until we get a final probability of all of them and we add it up to get a final probability (idk if that's how the statistics works but that's the goal).
+
+
 - [ ] Get all the data required to train the machine learning algorithm
 - [ ] Find and compare algorithms to see which performs best 
 - [ ] Implement the 'best' and have it output 
@@ -136,8 +146,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Nick Davila - ndavila@utexas.edu
 
-Project Link: [https://github.com/nickdavila/LAE-ML-Classification](https://github.com/nickdavila/LAE-ML-Classification)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -146,7 +154,7 @@ Project Link: [https://github.com/nickdavila/LAE-ML-Classification](https://gith
 ## Acknowledgments
 
 * Very special thanks to Oscar A. Chavez Ortiz for guiding me throughout the entire project.
-* Thank you to Gene Leung and Steven Finkelstein for their exptert advice along the way.
+* Thank you to Gene Leung and Steven Finkelstein for their expert advice along the way.
 * Thank you to all my peers in GEVIP for the tips and inspiration.
 <!-- * []() use this so that it's like a link to something -->
 
