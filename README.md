@@ -155,6 +155,7 @@ Nick Davila - ndavila@utexas.edu
 
 * Very special thanks to Oscar A. Chavez Ortiz for guiding me throughout the entire project.
 * Thank you to Gene Leung and Steven Finkelstein for their expert advice along the way.
+* Thank you to Valentina Tardugno for her guidance with machine learning.
 * Thank you to all my peers in GEVIP for the tips and inspiration.
 <!-- * []() use this so that it's like a link to something -->
 
