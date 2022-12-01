@@ -4,12 +4,12 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 
 
-## Links to all the papers:
+## Papers/journals archive:
 
 
 <details><summary>May 2022 Papers</summary>
 
-- Machine Learning in Astronomy: a practical overview [Link](https://arxiv.org/abs/1904.07248)
+ * "Machine Learning in Astronomy: a practical overview" [Link](https://arxiv.org/abs/1904.07248)
 
 </details>
  
