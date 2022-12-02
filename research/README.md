@@ -1,6 +1,6 @@
 # Secondary Research
 
-This folder is going to contain all the papers/courses/etc I have/will read to help me complete the project
+This folder is going to contain all the papers/courses/etc I have/will read to help me complete the project. It will also includes general notes and useful resources I find throughout my project
 
 
 ## Papers/journals TO READ:
