@@ -28,3 +28,14 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 (Incomplete, FREE) Caltech's 'Learning From Data' https://work.caltech.edu/telecourse
 
 ## Links to the rest:
+
+
+## General notes
+
+<details><summary>Fall 2022</summary>
+
+ I started off the semester with a really broad plan to automate the classification of LAEs. Since I couldn't just automate everything at once, I focused on a way to first classify the spectra. The ultimate goal is to finish classifying spectra and move to something else, but as of right now (Dec 1, 2022) I will only focus on spectra.
+ 
+ In our subgroup meetings it was decided that I would first focus on training a ML algorithm to differentiate between High-Z spectra and noise spectra. To do this I spent time writing code to make me a noise sample. After that, I spent time making a sample of random sources in order to run them through an autoencoder and then t-SNE and finally Gaussian mixture (code for these was adapted from Valentina's old work). After that I wrote some code to give me a "high quality" sample of high-z spectra. My goal now is to train a Random Forest ML algorithm to differentiate between high-z spectra and noise.
+
+</details>
