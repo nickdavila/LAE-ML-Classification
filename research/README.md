@@ -21,9 +21,11 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 </details>
  
-## Links to all courses (complete or incomplete to show if I have finished or not):
+## Links to all useful courses (complete or incomplete to show if I have finished or not):
 
 (Complete, paid) CS 329E at University of Texas at Austin https://www.cs.utexas.edu/courses/329e-elements-data-analytics
+
+(Complete, paid) CS 323E at University of Texas at Austin https://www.cs.utexas.edu/courses/323e-elements-scientific-computing
 
 (Incomplete, FREE) Caltech's 'Learning From Data' https://work.caltech.edu/telecourse
 
