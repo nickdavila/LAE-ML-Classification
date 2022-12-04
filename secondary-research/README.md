@@ -8,6 +8,8 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 <details><summary>Dec 2022 Papers</summary>
 
  * "Random forest classification of stars in the Galactic Centre" by P M Plewa [Link](https://academic.oup.com/mnras/article/476/3/3974/4907985)
+ 
+ * "Stellar spectral classification and feature evaluation based on a random forest" by Xiang-Ru Li, Yang-Tao Lin and Kai-Bin Qiu [Link](https://iopscience.iop.org/article/10.1088/1674-4527/19/8/111/meta)
 
 </details>
 
