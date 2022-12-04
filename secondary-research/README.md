@@ -31,6 +31,18 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 ## Links to the rest:
 
+### Youtube videos TO WATCH:
+
+<details><summary>Dec 2022 Papers</summary>
+
+ * "Random Forest Algorithm Clearly Explained!" https://www.youtube.com/watch?v=v6VJ2RO66Ag&ab_channel=NormalizedNerd
+ 
+ * "StatQuest: Random Forests Part 1 - Building, Using and Evaluating" https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&ab_channel=StatQuestwithJoshStarmer
+ 
+ * "59 - What is Random Forest classifier?" https://www.youtube.com/watch?v=6QSrgmMH4hE&ab_channel=DigitalSreeni
+
+</details>
+
 
 ## General notes
 
