@@ -5,7 +5,7 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 ## Papers/journals TO READ:
 
-<details><summary>Dec 2022 Papers</summary>
+<details><summary>Dec 2022</summary>
 
  * "Random forest classification of stars in the Galactic Centre" by P M Plewa [Link](https://academic.oup.com/mnras/article/476/3/3974/4907985)
  
@@ -17,7 +17,7 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 #### (Skimmed or completely read)
 
 
-<details><summary>May 2022 Papers</summary>
+<details><summary>May 2022</summary>
 
  * "Machine Learning in Astronomy: a practical overview" by Dalya Baron [Link](https://arxiv.org/abs/1904.07248)
 
