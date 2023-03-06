@@ -1,21 +1,33 @@
 # Secondary Research
 
-This folder is going to contain all the papers/courses/etc I have/will read to help me complete the project. It will also includes general notes and useful resources I find throughout my project
+This folder is going to contain all the papers/courses/etc I have/will read to help me complete the project. It will also includes general notes and useful resources I find throughout my project. I won't put every single thing I read here, but only things I would like to maybe revisit someday.
 
 
 ## Papers/journals TO READ:
 
+<details><summary>Spring 2023 semester</summary>
+
+* Random forest classification data developed from multitemporal Landsat 8 spectral data and phenology metrics for a subregion in Sonoran and Mojave Deserts, April 2013 – December 2020 https://www.usgs.gov/data/random-forest-classification-data-developed-multitemporal-landsat-8-spectral-data-and
+
+* A comparison of random forest and its Gini importance with standard chemometric methods for the feature selection and classification of spectral data https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-213
+
+</details>
+
 <details><summary>Dec 2022</summary>
 
  * "Random forest classification of stars in the Galactic Centre" by P M Plewa [Link](https://academic.oup.com/mnras/article/476/3/3974/4907985)
- 
- * "Stellar spectral classification and feature evaluation based on a random forest" by Xiang-Ru Li, Yang-Tao Lin and Kai-Bin Qiu [Link](https://iopscience.iop.org/article/10.1088/1674-4527/19/8/111/meta)
 
 </details>
 
 ## Papers/journals archive:
 #### (Skimmed or completely read)
 
+<details><summary>Spring 2023 semester</summary>
+
+* "Stellar spectral classification and feature evaluation based on a random forest" https://iopscience.iop.org/article/10.1088/1674-4527/19/8/111/meta
+
+* "Application of random forest to stellar spectral classification" https://ieeexplore.ieee.org/document/5648041
+</details>
 
 <details><summary>May 2022</summary>
 
