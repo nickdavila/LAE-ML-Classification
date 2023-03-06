@@ -7,9 +7,11 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 <details><summary>Spring 2023 semester</summary>
 
-* Random forest classification data developed from multitemporal Landsat 8 spectral data and phenology metrics for a subregion in Sonoran and Mojave Deserts, April 2013 – December 2020 https://www.usgs.gov/data/random-forest-classification-data-developed-multitemporal-landsat-8-spectral-data-and
+* "A Morphological Classification Model to Identify Unresolved PanSTARRS1 Sources. II. Update to the PS1 Point Source Catalog" https://iopscience.iop.org/article/10.1088/1538-3873/abf038/pdf
 
-* A comparison of random forest and its Gini importance with standard chemometric methods for the feature selection and classification of spectral data https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-213
+* "Random forest classification data developed from multitemporal Landsat 8 spectral data and phenology metrics for a subregion in Sonoran and Mojave Deserts, April 2013 – December 2020" https://www.usgs.gov/data/random-forest-classification-data-developed-multitemporal-landsat-8-spectral-data-and
+
+* "A comparison of random forest and its Gini importance with standard chemometric methods for the feature selection and classification of spectral data" https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-213
 
 </details>
 
