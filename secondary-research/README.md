@@ -21,7 +21,7 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 
 </details>
 
-## Papers/journals archive:
+## Papers/journals/notes archive:
 #### (Skimmed or completely read)
 
 <details><summary>Spring 2023 semester</summary>
@@ -29,7 +29,10 @@ This folder is going to contain all the papers/courses/etc I have/will read to h
 * "Stellar spectral classification and feature evaluation based on a random forest" https://iopscience.iop.org/article/10.1088/1674-4527/19/8/111/meta
 
 * "Application of random forest to stellar spectral classification" https://ieeexplore.ieee.org/document/5648041
+
+* "MACHINE LEARNING IN ASTRONOMY: A PRACTICAL OVERVIEW" http://ned.ipac.caltech.edu/level5/March19/Baron/Baron_contents.html
 </details>
+
 
 <details><summary>May 2022</summary>
 
