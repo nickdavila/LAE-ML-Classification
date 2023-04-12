@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   
-  <h2 align="center">Classifying Lyman-Alpha Emitters With Machine Learning</h2>
+  <h2 align="center">Classifying High-Redshift Galaxies from the HETDEX Survey Using a Random Forest Classifier</h2>
   
   <a>
     <img src="images/GEVIP LOGO/Purple Logo/GEVIP LOGO BOTTOM TEXT WHITE.png" alt="Logo" width="100" height="115">
@@ -59,30 +59,20 @@ One of GEVIP’s (Galaxy Evolution Vertically Integrated Project) themes is work
 
 ## Prerequisites
 
-Must be part of the HETDEX group to use (uses required HETDEX data/libraries).
+We used the HETDEX HDR3 internal day release 3.0.1 and the HETDEX API: https://github.com/HETDEX/hetdex_api
 
 Import the following libraries:
 
 ```
-import tables as tb
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.colors import LogNorm
+import pandas as pd
+import seaborn as sns # statistical data visualization
 
-from astropy import constants as const
-from astropy.table import Table, column, join
-from astropy.io import fits
-import astropy.units as u
-from astropy.coordinates import SkyCoord
-from astropy.visualization import ZScaleInterval
-
-from regions import CircleSkyRegion, CirclePixelRegion
-
-from hetdex_api.survey import Survey, FiberIndex
-from hetdex_api.config import HDRconfig
-from hetdex_api.detections import Detections
-
-import seaborn as sb
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn import metrics 
 
 # Can use pip install for these
 ```
