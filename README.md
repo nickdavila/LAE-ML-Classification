@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](secondary-research/posters/cns_urf_2022_poster.pdf)
+[![Product Name Screen Shot][product-screenshot]](secondary-research/posters/nick_davila_cns_urf_2023_poster.pdf)
 
 One of GEVIP’s (Galaxy Evolution Vertically Integrated Project) themes is working with HETDEX (Hobby-Eberly Telescope Dark Energy Experiment). HETDEX is an unbiased spectroscopic survey using the 10m Hobby Eberly Telescope (HET) and its VIRUS integral-field unit (IFU) spectrograph. HETDEX is in the process of discovering distant galaxies on the basis of their strong Lyman-α emissions. In some GEVIP projects, we use the discovered Lyman-α emitting galaxies with the goal of understanding how the Milky Way galaxy was formed. In order to get usable data, we work on classifying Lyman-α emitting galaxies from large sets of data which contain different astronomical objects. To classify, we divide astronomical objects into groups based on their visual appearance. However, data in astronomy is getting larger and more complex, so we are turning to machine learning algorithms that can adapt to increasingly large sets of data. Therefore, this project aims to create a machine learning algorithm to accelerate the classification of Lyman-α galaxies. Our first step is to explore different machine learning algorithms related to classification. We then want to compare the algorithms and find which one is best suited for our purposes. We want an algorithm that takes images as input and can output a Lyman-α score between 0 and 1 (a probability the source is Lyman- α, where 0 is not probable at all and 1 is very probable). Lastly, we want to implement our chosen algorithm to the smaller NEP field data, and then optimize it, to one day use it with other data sets.
 
@@ -171,4 +171,4 @@ Distributed under the MIT License.
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nickmdavila/
-[product-screenshot]: images/cns_urf_2022_poster-1.jpg
+[product-screenshot]: images/nick_davila_cns_urf_2023_poster.jpg
