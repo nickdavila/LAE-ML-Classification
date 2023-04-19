@@ -79,43 +79,17 @@ from sklearn import metrics
 # Can use pip install for these
 ```
 
-### Installation
-
-This part is under construction!
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+The next prerequisite step is importing data. We use an internal detections catalog for our high-redshift galaxies (sources that were visually classified  and vetted by many people). For the noise data I took the HDR3 catalog (specifically used photometry) and extracted in the sections in the sky where there were no detections within 200 arcseconds.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Whenever you need to classify galaxies based on their strong Lyman-α emissions. You input an image (specify type later) and data (also specify later) and then the program will classify for you and tell you if those partain to a Lyman-α emitting galaxy.
+1. Create a sample of high-redshift galaxies and noise sources. We create a data set of 20,000 sources, 10,000 being high-redshift galaxies and 10,000 noise sources.
+
+2. For binary classification you need to label the data. We chose a '1' to mean high-redshift galaxy and a '0' to mean a noise source. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-So basically I want to automate the classification process we do by training an AI to do it. What I'm going to do is have it basically retrace our steps and automate all of them. So when we classify, these are our steps:
-1. Look at spectrum and inspect it
-2. Look at CCD’s
-3. Look at upper left information
-4. Look at images
-5. Etc.
-
-It seems very ambitious but I have to try. So the final goal is to automate all of these, and slowly but surely I have to work through each one. Automating each one is probably like its own mini-project. So I’ll first start with automating step 1, and let’s say we get a probability based on number 1 alone. Then we get a probability based on automating number 2 alone. We repeat this until we get a final probability of all of them and we add it up to get a final probability (idk if that's how the statistics works but that's the goal).
-
-
-- [ ] Get all the data required to train the machine learning algorithm
-- [ ] Find and compare algorithms to see which performs best 
-- [ ] Implement the 'best' and have it output 
-    - [ ] Write a note about this?
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
